@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "colo"
+version = "0.1.0"
+description = "A simple script to print out the 256 terminal colors in various formats"
+authors = ["terminaldweller <thabogre@gmail.com>"]
+license = "GPL3"
+readme = "README.md"
+homepage = "https://github.com/terminaldweller/colo"
+repository = "https://github.com/terminaldweller/colo"
+keywords = ["terminal", "color"]
+classifiers = [
+  "Environment :: Console",
+]
+include = [
+  "LICENSE",
+]
+packages = [
+{include = "colo"}
+]
+
+[tool.poetry.scripts]
+colo = "colo.colo:colo"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
