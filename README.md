@@ -1,6 +1,6 @@
 # colo
 
-A simple script that prints out the 256 terminal colors in different formats:</br>
+A simple script that prints out the 256 terminal colors in different formats.</br>
 It can print the numbers, the hex value, rgb,hsi and the ansi escape sequence.</br>
 
 ```sh
