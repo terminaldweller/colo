@@ -3,7 +3,7 @@
 A simple script that prints out the 256 terminal colors in different formats.</br>
 It can print the numbers, the hex value, rgb,hsi and the ansi escape sequence.</br>
 
-```sh
+```txt
 colo --help
 usage: colo [-h] [--ansi] [--hsi] [--rgb] [--number] [--name] [--hex]
 

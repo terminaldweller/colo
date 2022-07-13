@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "colo"
-version = "1.0.0"
+version = "1.1.0"
 description = "A simple script to print out the 256 terminal colors in various formats"
 authors = ["terminaldweller <thabogre@gmail.com>"]
 license = "GPL3"
