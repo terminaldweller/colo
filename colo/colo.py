@@ -452,6 +452,7 @@ def colo() -> None:
         color_ansi(number_colo_list)
     else:
         color_default(number_colo_list)
+    print()
 
 
 if __name__ == "__main__":
