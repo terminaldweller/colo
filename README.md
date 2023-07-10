@@ -21,5 +21,9 @@ optional arguments:
 
 ## How to get
 ```sh
-pip3 install colo
+pipx install colo
+```
+Also since this is a very small package without any dependencies you could always use `pipx run` without "installing the package":
+```sh
+pipx run colo
 ```
